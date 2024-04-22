@@ -37,7 +37,7 @@ function Products() {
         </ErrorBoundry>
       </Loading>
 
-      {isSuccess && data?.data.length && (
+      {isSuccess && !!data?.data.length && (
         <Pagination
           page={page}
           setPage={setPage}
