@@ -159,7 +159,7 @@ const Login = () => {
                       : "blue.500",
                 }}
               >
-                Sign up
+                Login
               </Button>
             </Stack>
           </Stack>
